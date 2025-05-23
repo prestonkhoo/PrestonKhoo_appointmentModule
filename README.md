@@ -1,12 +1,23 @@
-# Assignment 1
+# Appointment Scheduling Module
 
-You will only need one file, ie, your node module, for this assignment.
+## Description
+This Node.js module simulates an appointment scheduling system, similar to what is used in healthcare applications like HealthHub.sg.
 
-In this readme file, describe how to use your node module. It could be similar to **app.js** from Lab2, where you call some functions in your node module and display the output. Describe how to setup your node module, if any. Describe how to call the functions, what parameters required and so on.
+The module allows users to:
+- Add a new appointment
+- Cancel an appointment by index
+- List all appointments
+- Update appointment details (date and time)
+- Search for appointments by date
 
-You can press **Ctrl+Shift+V** in this file in Visual Studio Code to see a live preview of the readme file.
+## How to Use
 
-For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+### 1. Files
+- `Preston_appointmentModule.js`: Node module contains all the functions
+- `app.js`: Is used to test and demonstrate the functions
 
-# References
-Provide the references that you have used to support your assignment. 
+### 2. Run the application
+Make sure Node.js is installed
+
+### 3. Open the integrated terminal and run
+In the terminal, run: "node app"
